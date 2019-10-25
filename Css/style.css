@@ -1,0 +1,106 @@
+body{
+    margin:auto;
+}
+
+.header{
+    background-color:rgb(130, 180, 89);
+}
+
+.header img{
+    height:26px ;
+}
+
+.header a{
+    color:white;
+}
+
+.headimage{
+    position:relative;
+    left:30px;
+    display:inline-block;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.menus{
+    float: right;
+    position:relative;
+    right:30px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+.container{
+    width:100%;
+    text-align: center;
+    font-size: 20px;
+    font-family:"YouYuan",Times,serif;
+    overflow: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.img_contaniner{
+    width:80%;
+    
+    margin:auto;
+    overflow: auto;
+}
+
+.moviecell{
+    background-color:rgb(130, 180, 89);
+    
+    margin:2%;
+    float:left;
+    width:21%;
+    height: 300px;
+    text-align: center;
+}
+
+.moviecell img{
+    margin-top: 5%;
+    height:85%;
+    width:90%;
+}
+
+.bookcell{
+    background-color:rgb(130, 180, 89);
+    width:21%;
+    height: 300px;
+    margin:2%;
+    float:left;
+}
+
+.bookcell img{
+    margin-top: 5%;
+    height:85%;
+    width:90%;
+}
+
+/*  */
+.footer{
+    width:100%;
+    background-color:rgb(130, 180, 89);
+    color:white;
+}
+
+.show{
+    width:80%;
+    position:relative;
+    left:10%;
+    right:10%;
+}
+
+.show img{
+    height:120px;
+    float:right;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top:10px;
+    
+}

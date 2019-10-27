@@ -1,100 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>portfolio</title>
-    
-    <link rel="stylesheet" href="Css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="./Css/style.css">
+
+
+    <title>HomePage</title>
 </head>
-
 <body>
-        <div class="head">
-                <div class="nav">
-                    <div class="nav_left">
-                        <h3>
-                        <img src="http://img1.imgtn.bdimg.com/it/u=2899896033,915020218&fm=26&gp=0.jpg">
-                         学习机器是我</h3>
-                    </div>
-                    <div class="nav_right">
-                        <ul class="list">
-                            <li><a href="#movie">喜欢的电影</a></li>
-                            <li><a href="#book">即将上映</a></li>
-                            <li><a href="#lyl">来聊天吧</a></li>
-                            <div class="xl">
-                                    more
-                                <div class="menu">
-                                        <a href="#movie">扩展功能
-                                            </a>
-                                            <a href="#book">更多
-                                            </a>
-                                            <a href="#lyl">。。。。
-                                            </a>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </div>
- 
-            <div class="content">
-                    <div class="movie">
-                            <h3 id="movie">喜欢的电影</h3>
-                            <hr style="width: 10%;margin: 10px auto;">
-                        <div class="mymovie"><img
-                                    src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=127605114,4197648720&fm=26&gp=0.jpg"></a>
-                            <p>柯南</p>
-                        </div>
-                        <div class="mymovie"><img
-                            src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=127605114,4197648720&fm=26&gp=0.jpg"></a>
-                            <p>柯南</p>
-                       </div>
-                       <div class="mymovie"><img
-                        src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=127605114,4197648720&fm=26&gp=0.jpg"></a>
-                           <p>柯南</p>
-                      </div>
-                      <div class="mymovie"><img
-                            src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=127605114,4197648720&fm=26&gp=0.jpg"></a>
-                            <p>柯南</p>
-                      </div>
-                    </div>
-                    <div class="book">
-                        <h3 id="book">我爱的书</h3>
-                        <hr style="width: 10%;margin: 10px auto;">
-                        <div class="mybook"><img
-                                    src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2678549823,1894756363&fm=111&gp=0.jpg">
-                            
-                            <p>诛仙</p>
-                        </div>
-                        <div class="mybook"><img
-                            src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2678549823,1894756363&fm=111&gp=0.jpg">
-                    
-                            <p>诛仙</p>
-                        </div>
-                         <div class="mybook"><img
-                                    src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2678549823,1894756363&fm=111&gp=0.jpg">
-                            <p>诛仙</p>
-                        </div>
-                        <div class="mybook"><img
-                            src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2678549823,1894756363&fm=111&gp=0.jpg">
-                    
-                            <p>诛仙</p>
-                        </div>
-                    </div>
-                </div>
-    <div class="footer">
-            <a name="lyl"></a>
-            <div class="erweima">
-                <div class="ant">王小波说他是一只特立独行的猪，那我就当一只特立独行的鸟吧。交个朋友么，扫下右边的二维码。</div>
-                <div class="tu"><img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4090743294,1994693594&fm=26&gp=0.jpg"></div>
-            </div>
-            <div class="footer_bot">
-            <hr>
-            <p>版权所有@copy我是学习机器;</p>
-            </div>
+    <div class="header">
+        <div class="headimage">
+            <img src="http://dingyue.nosdn.127.net/MPoMrPbvfKJMdUzbhRpkgNlKQf0fYFbLIeisCtynpQChr1544757540840compressflag.jpg"/>
+            <a>看这里这里这里</a>
         </div>
-</body>
+        
+        <div class="menus">
+                <a href="">我喜欢的书</a>
+            <a href="">我喜欢的电影</a>
+            
+            <a href="">来聊天吧</a>
+        </div>
+        
+    </div>
+    <div class="container">
+        <a>我喜欢的电影</a>
+        <hr color=black width=5% size=2>
+        <div class="img_contaniner">
 
+                <script>
+                        for(i=1;i<=4;i++){
+                            document.write("<div class=\"moviecell\">"+"<img src=\"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571976424471&di=d067aa6ce28eaf919cc41b91e65a12cb&imgtype=0&src=http%3A%2F%2Fi2.hdslb.com%2Fbfs%2Farchive%2F8c81a62b978c6f092ac4208ab5feb3c8bb81b78d.jpg\"/>"+"<br><a>肖战❤王一博</a></br>"+"</div>");
+        
+                        }
+                </script>
+                <script>
+                        for(i=1;i<=4;i++){
+                            document.write("<div class=\"moviecell\">"+"<img src=\"http://5b0988e595225.cdn.sohucs.com/images/20180109/21a0bf07aac2439ea9e4f915832694d5.jpeg\"/>"+"<br><a>柯南</a></br>"+"</div>");
+        
+                        }
+                </script>         
+        </div>
+    </div>
+    <div class="container">
+        <a>我喜欢的书</a>
+        <hr color=black width=5% size=2>
+        <div class="img_contaniner">
+                <script>
+                        for(i=1;i<=4;i++){
+                            document.write("<div class=\"bookcell\">"+"<img src=\"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1926260292,4161349232&fm=58&s=6E8166854412B7FF8C39B5A603007001\"/>"+"<br><a>罗小黑战记</a></br>"+"</div>");
+                        
+                        }
+                </script>
+                
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="show">
+            <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3549861154,1042056150&fm=26&gp=0.jpg">
+            <br/></br>
+            <a>爱情是春天的勃勃生机，爱情是夏天的清风送爽，爱情是秋天的硕果满园，爱情是冬天的晶莹白雪，愿浪漫的爱情滋润你的生活，温暖你的世界，精彩你的时光。想告诉你喜欢你快乐的样子，喜欢你微笑的神情，喜欢你走路的姿态，喜欢你的每一个细节，想对你说我的心里只有你，你是我今生唯一的挚爱。你是最好的！</a>
+            
+        </div>
+        <hr color=white width=100% size=2>
+        <div class="copyright">
+            <a>灰原哀是小天使</a>
+            
+        </div>
+        <br></br>
+    </div>
+
+</body>
 </html>

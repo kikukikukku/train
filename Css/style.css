@@ -57,7 +57,7 @@ body{
     height: 300px;
     text-align: center;
 }
-.moviecell .mymove:hover {
+.moviecell :hover {
     border: 1px solid #FFCCCC;
     opacity: 0.5;
 }
@@ -74,7 +74,7 @@ body{
     margin:2%;
     float:left;
 }
-.bookcell .mybook:hover {
+.bookcell :hover {
     border: 1px solid #FFCCCC;
     opacity: 0.5;
 }

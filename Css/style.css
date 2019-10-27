@@ -57,7 +57,10 @@ body{
     height: 300px;
     text-align: center;
 }
-
+.moviecell .mymove:hover {
+    border: 1px solid #FFCCCC;
+    opacity: 0.5;
+}
 .moviecell img{
     margin-top: 5%;
     height:85%;
@@ -70,6 +73,10 @@ body{
     height: 300px;
     margin:2%;
     float:left;
+}
+.bookcell .mybook:hover {
+    border: 1px solid #FFCCCC;
+    opacity: 0.5;
 }
 
 .bookcell img{
